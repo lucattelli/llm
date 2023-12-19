@@ -1,7 +1,7 @@
 import logging
 
+from llm.shared.logger import configure_logger
 from myrag.hf import rag
-from myrag.logger import configure_logger
 
 configure_logger()
 

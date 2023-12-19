@@ -1,6 +1,6 @@
 import logging
 
-from myrag.logger import configure_logger
+from llm.shared.logger import configure_logger
 from myrag.openai import rag
 
 configure_logger()

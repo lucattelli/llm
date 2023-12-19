@@ -5,7 +5,7 @@ import pymongo
 import requests
 from pymongo.collection import Collection
 
-from myrag.settings import Secrets, Settings
+from llm.shared.settings import Secrets, Settings
 
 secrets = Secrets()
 settings = Settings()
